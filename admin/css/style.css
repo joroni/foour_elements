@@ -1,0 +1,589 @@
+button.inline{
+ 
+  width: 60px;
+}
+button[disabled], html input[disabled] {
+  cursor: default;
+  color: lightslategray;
+}
+/* Fixed sidenav, full height */
+.error {
+  color: red;
+}
+.caption {
+  position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.thumbnail {
+  position: relative;
+  
+}
+
+
+
+/* Registration */
+#div_reg{
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 470px;
+  height: 370px;
+  box-shadow: 0px 2px 2px 0px  gray;
+  margin: 0 auto;
+}
+
+#div_reg h1{
+  margin-top:0px;
+  font-weight: normal;
+  padding:10px;
+  background-color:cornflowerblue;
+  color:white;
+  font-family:sans-serif;
+}
+
+#div_reg div{
+  clear: both;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#div_reg .textbox{
+  width: 96%;
+  padding: 7px;
+}
+
+#div_reg input[type=submit]{
+  padding: 7px;
+  width: 100px;
+  background-color: lightseagreen;
+  border: 0px;
+  color: white;
+}
+
+.form-signup {
+  width: 100%;
+  /* max-width: 330px; */
+  padding: 15px;
+  margin: auto;
+}
+
+.dataTables_wrapper {
+  padding: 20px 10px;
+}
+/* Response */
+.response{
+  padding: 6px;
+  display: block;
+}
+.hide{
+  display: none;
+}
+.exists{
+  color: green;
+}
+
+.not-exists{
+  color: red;
+}
+
+
+.form-group.required .control-label:after {
+  content:"*";color:red;
+}
+tr.disabled button.not-edit {
+  opacity: .65;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.btn-register{
+  color:#fff;
+  width:30px;
+}
+
+
+.btn-register:hover, .btn-register:focus, .btn-register:active{
+  color:#fff;
+}
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+}
+
+.sidenav {
+    height: 100%;
+    /* width: 200px; */
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    left: 0;
+    background-color: #222d32;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181 !important;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Main content */
+  .main {
+    font-size: 14px;
+    padding: 0px 10px;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: #000;
+    color: white;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+
+
+.modal-backdrop {
+    
+    background-color: rgba(0,0,0,0.2) !important;
+}
+
+
+.modal-header {
+    
+    border-bottom: 0px solid #e5e5e5 !important;
+}
+
+.modal-footer {
+    
+    border-top: 0px solid #e5e5e5 !important;
+}
+pre {
+  white-space: pre-wrap !important;
+}
+
+
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: rgba(0,0,0,0.4);
+}
+
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #1a2226;
+}
+
+.dropdown-menu {
+    position: relative;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    color: #fff !important;
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #222;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+x
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #818181 !important;
+    white-space: nowrap;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+.form-control, button, .btn, .modal-content {
+  border-radius: 0;
+}
+
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.icon-bar {
+  background-color: #fff;
+}
+
+.sidebar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+
+.sidebar-toggle .icon-bar+.icon-bar {
+  margin-top: 4px;
+}
+
+.sidebar {
+  display: block;
+}
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 50px;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  width: auto;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+.navbar-nav {
+  margin: 7.5px 5px;
+}
+
+
+@media (min-width: 1200px){
+  .container {
+      width: 1170px;
+      margin-left: 0;
+      margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .sidebar{
+    width:250px !important;
+  }
+
+  .main {
+    
+    margin-left: 250px !important;
+  }
+
+  .openbtn, .sidebar .closebtn {
+    display:none;
+  }
+}
+
+
+@media screen and (max-width: 1023px){
+  /* .sidebar{
+    width:0;
+  } */
+
+  .main {
+    
+    left: 0;
+  }
+
+  .openbtn, .sidebar .closebtn {
+    display:block;
+  }
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+.container {
+  width:100%;
+}
+
+
+.info-box {
+  box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+  border-radius: .25rem;
+  background: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+  min-height: 80px;
+  padding: .5rem;
+  position: relative;
+  width: 100%;
+}
+
+
+.info-box-icon {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+  display: block;
+  float: left;
+  height: 90px;
+  width: 90px;
+  text-align: center;
+  font-size: 45px;
+  line-height: 90px;
+  background: rgba(0,0,0,0.2);
+}
+
+
+.info-box .info-box-icon {
+  border-radius: .25rem;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.875rem;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  width: 70px;
+}
+.bg-info, .bg-info>a {
+  color: #fff!important;
+}
+.bg-info {
+  background-color: #17a2b8;
+}
+.info-box .info-box-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 120%;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0 10px;
+}
+
+.no-bg {
+  background: none !important;
+  background-color: transparent !important;
+  border:none !important;
+}
+
+
+.earthbg {
+  background-color:#EFE6DD;
+}
+
+
+.airbg  {
+  background-color:#7EBDC2;
+}
+
+.waterbg {
+  background-color:#F3DFA2;
+}
+
+.firebg {
+  background-color:#0094D6;
+}
+
+.info-box-text {
+  text-transform: uppercase;
+}
+
+
+.info-box-number {
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.panel-default>.panel-heading {
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+  text-align: center;
+}
+
+.header-logo {
+  height:30px;
+}
+
+input[type="search"] {
+  border: 1px solid #ddd;
+  margin: 0 0 20px 10px;
+}
+
+.box {
+  position: relative;
+  border-radius: 3px;
+  background: #ffffff;
+  border-top: 3px solid #d2d6de;
+  margin-bottom: 20px;
+  width: 100%;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
